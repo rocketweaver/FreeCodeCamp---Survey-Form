@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Inter;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54)), url("/image/ivan-aleksic-PDRFeeDniCk-unsplash.jpg");
+}
+
+.container {
+  padding: 1% 100px 3% 100px;
+}
+
+#title {
+  font-size: 50px;
+}
+
+#description {
+  font-size: 24px;
+}
+
+#title, #description {
+  color: #FCFCFC;
+}
+
+#description {
+  margin-top: -15px;
+  margin-bottom: 50px;
+}
+
+#survey-form {
+  background: #FCFCFC;
+  color: #000;
+  border: 1px solid #9E9E9E;
+  width: 50%;
+  margin: auto;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+#survey-form * {
+  display: block;
+}
+
+#survey-form label, #survey-form p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#survey-form label:not(:first-child), #survey-form p {
+  margin-top: 10px;
+}
+
+#survey-form [type="text"], #survey-form [type="email"], #survey-form [type="number"], #survey-form select, #survey-form textarea, #survey-form button {
+  padding: 5px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#survey-form input, #survey-form textarea, #survey-form button {
+  background: #e9e9e9;
+  border: 1px solid #9E9E9E;
+  border-radius: 4px;
+  padding: 15px !important;
+  font-size: 16px;
+}
+
+#survey-form input:focus, #survey-form textarea:focus {
+  outline: none;
+  border: 2px solid #20a749;
+}
+
+#survey-form button {
+  background: #166ddf;
+  border: none;
+  color: #FCFCFC;
+  font-size: 18px;
+}
+
+#survey-form button:hover {
+  background: #09499e;
+}
+
+#survey-form select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#survey-form ::-webkit-input-placeholder {
+  font-size: 16px;
+}
+
+#survey-form :-ms-input-placeholder {
+  font-size: 16px;
+}
+
+#survey-form ::-ms-input-placeholder {
+  font-size: 16px;
+}
+
+#survey-form ::placeholder {
+  font-size: 16px;
+}
+
+.rate-input, .feature-input {
+  text-align: left;
+}
+
+.rate-input input, .rate-input label, .feature-input input, .feature-input label {
+  display: inline-block !important;
+}
+
+.rate-input input, .feature-input input {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>freeCodeCamp - Survey Form</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">School Website Performance</h1>
+        <p id="description">Please fulfill this form patiently and honestly</p>
+        <form action="#" id="survey-form">
+            <label for="name" id="name-label">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Input your fullname here" required>
+
+            <label for="name" id="email-label">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Input your email here" required>
+
+            <label for="number" id="number-label">Grade: </label>
+            <input type="number" name="number" id="number" min="10" max="12" placeholder="Input your age in number here" required>
+
+            <label for="dropdown-label">Majors: </label>
+            <select name="dropdown" id="dropdown" required>
+                <option value="Natural Science">Natural Science</option>
+                <option value="Social Science">Social Science</option>
+            </select>
+
+            <p>Based on your experience when using it, how good the website is?</p>
+            <div class="rate-input">
+                <input type="radio" id="rate" name="bad-good-great" value="Bad">
+                <label for="rate">Bad</label>
+            </div>
+            <div class="rate-input">
+                <input type="radio" id="rate" name="bad-good-great" value="Good">
+                <label for="rate">Good</label>
+            </div>
+            <div class="rate-input">
+                <input type="radio" id="rate" name="bad-good-great" value="Really great!">
+                <label for="rate">Really great!</label>
+            </div>
+            
+            <p>What upcoming feature do you want for the website?</p>
+            <div class="feature-input">
+                <input type="checkbox" name="feature" id="profile-pic" value="Profile Picture">
+                <label for="profile-pic">Profile Picture</label>
+            </div>
+            <div class="feature-input">
+                <input type="checkbox" name="feature" id="forum" value="Forum">
+                <label for="forum">Forum</label>
+            </div>
+            <div class="feature-input">
+                <input type="checkbox" name="feature" id="performance-complaint" value="Performance Complaint">
+                <label for="performance-complaint">Performance Complaint</label>
+            </div>
+            <div class="feature-input">
+                <input type="checkbox" name="feature" id="teaching-feedback" value="Teaching Feedback">
+                <label for="teaching-feedback">Teaching Feedback</label>
+            </div>
+
+            <label for="suggestion" id="suggestion-label">Any suggestion for the website?</label>
+            <textarea name="suggestion" id="textarea" cols="100" rows="10"></textarea><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
